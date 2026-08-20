@@ -70,7 +70,7 @@ documento HTML, CSS, JavaScript, imágenes, fuentes u otros.
 
 Complete la tabla:
 
-  | Recurso | Tipo | Dominio | Tamaño |
+| Recurso | Tipo | Dominio | Tamaño |
 | :--- | :--- | :--- | :--- |
 | Marca-pais.png | png | www.itm.edu.co | disk cache |
 | SupportedLanguajes | Script | https://translate.google.com/translate_a/element.js?b=GoogleLanguageTranslatorInit | 2.7 kB |
@@ -109,14 +109,14 @@ navegador, preferiblemente la correspondiente al documento principal.
 
 Identifique la información solicitada a continuación.
 
-  Elemento              Resultado
-  --------------------- -----------
-  URL                   https://www.itm.edu.co/formatos-institucionales/  
-  Método HTTP           GET
-  Código de estado      200 OK
-  Host / dominio        www.itm.edu.co
-  Tipo de recurso       document
-  Tiempo de respuesta   1.18 s
+| Elemento | Resultado |
+| :--- | :--- |
+| URL | https://www.itm.edu.co/formatos-institucionales/ |
+| Método HTTP | GET |
+| Código de estado | 200 OK |
+| Host / dominio | www.itm.edu.co |
+| Tipo de recurso | document |
+| Tiempo de respuesta | 1.18 s |
 
 ## Flujo que se está observando
 
@@ -146,7 +146,7 @@ Inclúyala en el informe:
 
 **¿Qué recurso solicitó el navegador?**
 
-> El navegador solicitó el recurso 06-Nosotros.gif mediante una solicitud HTTP con el método GET.
+> El navegador solicitó el recurso formatos-institucionales mediante una solicitud HTTP con el método GET.
 
 **¿Qué información permite determinar si la solicitud fue atendida
 correctamente?**
@@ -234,14 +234,14 @@ Observe si aparece una nueva solicitud en Network.
 
 ## Resultados
 
-  Elemento                       Resultado
-  ------------------------------ -----------
-  Acción realizada               Se seleccionó la opción para traducir la página al inglés.  
-  ¿Generó una nueva solicitud?   Si
-  URL solicitada                 https://translate-pa.googleapis.com/v1/translateHtml    
-  Método HTTP                    POST 
-  Código de estado               200 OK
-  Tipo de respuesta              application/json+protobuf; charset=UTF-8
+  | Elemento | Resultado |
+  | :--- | :--- |
+  | **Acción realizada** | Se seleccionó la opción para traducir la página al inglés. |
+  | **¿Generó una nueva solicitud?** | Si |
+  | **URL solicitada** | https://translate-pa.googleapis.com/v1/translateHtml |
+  | **Método HTTP** | POST |
+  | **Código de estado** | 200 OK |
+  | **Tipo de respuesta** | application/json+protobuf; charset=UTF-8 |
 
 ## Ciclo de interacción
 
