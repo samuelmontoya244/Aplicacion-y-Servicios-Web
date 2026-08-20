@@ -70,21 +70,13 @@ documento HTML, CSS, JavaScript, imágenes, fuentes u otros.
 
 Complete la tabla:
 
-  Recurso                   Tipo         Dominio                                            Tamaño
-  ---------                 ------       ---------                                          --------
-  Marca-pais.png            png          www.itm.edu.co                                     disk cache     
-  
-  SupportedLanguajes        Script       https://translate.google.com/translate_a
-                                         /element.js?b=GoogleLanguageTranslatorInit         2.7 kB
-                                         
-
-  min_educacion_logo.jpg   jpeg         www.itm.edu.co                                      disk cache
-
-  linkedin.svg             svg+xml      www.itm.edu.co                                      disk cache
-
-  style.css                stylesheet   www.itm.edu.co                                      disk cache
-                             
-                             
+  | Recurso | Tipo | Dominio | Tamaño |
+| :--- | :--- | :--- | :--- |
+| Marca-pais.png | png | www.itm.edu.co | disk cache |
+| SupportedLanguajes | Script | https://translate.google.com/translate_a/element.js?b=GoogleLanguageTranslatorInit | 2.7 kB |
+| min_educacion_logo.jpg | jpeg | www.itm.edu.co | disk cache |
+| linkedin.svg | svg+xml | www.itm.edu.co | disk cache |
+| style.css | stylesheet | www.itm.edu.co | disk cache |
 
 **Total de solicitudes observadas:** `127`
 
@@ -119,12 +111,12 @@ Identifique la información solicitada a continuación.
 
   Elemento              Resultado
   --------------------- -----------
-  URL                   
-  Método HTTP           
-  Código de estado      
-  Host / dominio        
-  Tipo de recurso       
-  Tiempo de respuesta   
+  URL                   https://www.itm.edu.co/formatos-institucionales/  
+  Método HTTP           GET
+  Código de estado      200 OK
+  Host / dominio        www.itm.edu.co
+  Tipo de recurso       document
+  Tiempo de respuesta   1.18 s
 
 ## Flujo que se está observando
 
